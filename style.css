@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(200,200,200), rgb(38, 137, 199));
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.main {
+    border: 2px solid #ccc;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(240, 240, 240);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.conversion-container {
+    font-size: 20px;
+}
+
+.select2-selection {
+    padding: 20px;
+    width: 300px;
+}
+
+.select2-selection__rendered {
+    margin-top: -14px;
+    margin-left: -10px;
+}
+
+
+.select2-selection__arrow {
+    margin-right: -20px;
+}
+
+label {
+    display: block;
+    color: #000;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(13, 193, 13);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.convert-time {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputTime {
+    width: 283px;
+    padding: 7px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-bottom: 15px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
